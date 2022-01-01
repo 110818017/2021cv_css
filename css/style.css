@@ -49,7 +49,6 @@ body{
     margin: auto;
     text-align: center;
     background-color: rgb(131, 94, 86); 
-    max-height: 500px;
 }
 h1 {
     animation-duration: 3s;
@@ -76,9 +75,7 @@ h2 {
     padding-bottom: 10px;
 }
 .top-container {
-   background-color: rgb(131, 94, 86)a; 
-   height: 100vh;
-    
+   background-color: rgb(131, 94, 86)a;     
 }
 
 .middle-container h2{
@@ -87,18 +84,19 @@ h2 {
 
 .middle-container {
     position: relative;
+    top: -20vh;
     background-color: #5f1f1f;
-    height: 380vh;
+    min-height: 30px;
 }
 .bbpic{
     position: relative;
-    top: -50vh;
+    top: -20vh;
 }
 
 .bottom-container {
     position: relative;
-    bottom: 80vh;
-    height: 20vh;
+    bottom: -10vh;
+    min-height: 25vh;
     background-color: rgb(131, 94, 86);
 } 
 .stu {
@@ -106,6 +104,7 @@ h2 {
 }
 .fa-angle-double-down {
     position: absolute;
+    top: 90vh;
     padding: 0;margin: auto;
     left: 49%;
     color: black;
@@ -162,15 +161,14 @@ h2 {
 }
 .hobby {
     position: relative;
-    bottom: 25%;
+    top: -50vh;
+    padding: 0%;margin: auto;
     display: block;
     color: rgb(235, 196, 187);
 }
 .hobby h2 {
     color: bisque;text-shadow: rgb(160, 89, 89) 0.1em 0.1em 0.2em;
     display: block;
-    bottom: 100vh;
-
 }
 .king {
     position: absolute;
@@ -232,7 +230,7 @@ h2 {
     animation-iteration-count:infinite;
     position: relative;
     padding: 0;margin: auto;
-    bottom: 80vh;
+    bottom: 60vh;
     font-size: 20px;
     background-color: rgb(177, 130, 73);
     width: 10%;
