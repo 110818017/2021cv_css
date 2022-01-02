@@ -113,9 +113,20 @@ h2 {
     color: rgb(241, 232, 226);
     transition: ease-in 0.3s;
 }
+.skills {
+    min-height: 90vh;
+}
+.skills >h2{
+    position: relative;
+    top: 5vh;
+    padding: 0%;
+    margin: auto;
+    left: 41.5vw;
+}
 .skill-row1{
     position: absolute;
-    left: 37%;
+    top: 62vh;
+    left: 15vw;
     background-color: #DEBA9D;
     border-radius: 360px;
     width:280px;
@@ -123,12 +134,32 @@ h2 {
 }
 .skill-row2{
     position: relative;
-    left: 13vw;
+    left: 17vw;
     background-color: #DEBA9D;
     border-radius: 360px;
     width: 280px;
     height: 280px;
 }
+.skill-row3{
+    position: relative;
+    top: 1.5vh;
+    display: inline-block;
+    left: 15vw;
+    background-color: #DEBA9D;
+    border-radius: 360px;
+    width: 280px;
+    height: 280px;
+}
+/* .skill-row3{
+    position: relative;
+    display: inline-block;
+    top: -47vh;
+    left: 23vw;
+    background-color: #DEBA9D;
+    border-radius: 360px;
+    width:280px;
+    height: 280px;
+} */
 .skill-row2 h3 {
     position: relative;
     top: 4vh;
@@ -140,15 +171,6 @@ h2 {
     border-radius: 360px;
 }
 
-.skill-row3{
-    position: relative;
-    top: -47vh;
-    left: 60vw;
-    background-color: #DEBA9D;
-    border-radius: 360px;
-    width:280px;
-    height: 280px;
-}
 .cakepic {
     position: relative;
     top: 4vh;
